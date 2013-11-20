@@ -6,21 +6,21 @@ using namespace std;
 
 int main()
 {
-    int katet_a = 0;
-    int katet_b = 0;
-    int hypo_c = 0;
+    int a = 0;
+    int b = 0;
+    int c = 0;
     int counter = 0;
     int count_tri = 0;
 
-    for(int katet_a = 1; katet_a <= 500; katet_a++)
+    for(int a = 1; a <= 500; a++)
     {
-        for(int katet_b = 1; katet_b <= 500; katet_b++)
+        for(int b = 1; b <= 500; b++)
         {
             counter++;
-            hypo_c = sqrt((katet_a * katet_a)+(katet_b * katet_b));
+            c = sqrt((a * a)+(b * b));
             if(c == 100 || c == 200 || c == 300 || c == 400 || c == 500)
-                cout << "Triangel med hypotenusan " << hypo_c >> ", katet a = " << katet_a << ", katet b = " << katet_b << endl;
-            if(((katet_a*katet_a)))
+                cout << "Triangel med hypotenusan " << c >> ", katet a = " << a << ", katet b = " << b << endl;
+            if(((a*a)))
         }
     }
 
