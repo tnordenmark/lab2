@@ -1,3 +1,8 @@
+// lab2_upg1.cpp
+// Program för att beräkna pytagoreiska trianglar med sidor < 500
+// Thomas Nordenmark 2013-11-20
+// Ver 0.1
+//------------------------------------------------------------------------------
 #include <iostream>
 #include <iomanip>
 
