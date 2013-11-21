@@ -1,8 +1,5 @@
-lab2
-====
-
 Introduktion C++ Laboration 2
------------------------------
+=============================
 
 Uppgift 1: Program för att beräkna pytagoreiska trianglar med sidor < 500
 
